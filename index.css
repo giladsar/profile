@@ -1,0 +1,94 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+.facebook {
+  color: blue;
+}
+
+.spotify {
+  color: rgb(93, 227, 83);
+}
+
+a:hover {
+  color: #FFDCA0;
+}
+
+.spotify:hover {
+  color: #FFDCA0;
+}
+
+.facebook:hover {
+  color: #FFDCA0;
+}
+
+#img-profile {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+p {
+  font-family: 'Josefin Sans', sans-serif;
+  color: black;
+  font-weight: lighter;
+  font-size: 20px ;
+}
+
+body {
+  background-color:rgba(193,193,234,0.1);
+}
+
+h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 50px;
+  color: #523241;
+}
+
+h2 {
+  color: #5E431D;
+  font-size: 40px;
+}
+
+.div-social {
+  color: #308B35;
+}
+
+div {
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  margin-top: 40px;
+}
+
+li {
+  display: inline-block;
+  padding: 0px 20px;
+  font-size: 45px;
+}
+@media (max-width: 960px) {
+  .container {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 550px) {
+  #img-profile {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  }
+}
+
+#div-profile {
+  margin: 80px;
+}
+.btn-blue {
+  background-color: #6B72E1;
+  color: white;
+  padding: 7px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+}
